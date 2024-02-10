@@ -7,7 +7,6 @@ const StealthPlugin = require ('puppeteer-extra-plugin-stealth');
   puppeteer.use(StealthPlugin());
   puppeteer.use(AdblockerPlugin({ blockTrackers: true, blockTrackersAndAnnoyances: true, useCache: true }));
   
-  ///loll test
 
 
   const browser = await puppeteer.launch({
